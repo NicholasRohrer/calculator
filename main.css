@@ -8,7 +8,7 @@ body {
 	margin-bottom: 100px;
 }
 
-#outline {
+#calculator {
 	background-color: black;
 	margin-top: 10px;
 	padding-right: 0px;
@@ -20,10 +20,13 @@ body {
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
+	border-radius: 0px;
 }
 .group2 {
 	background-color: orange;
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
+	color: white;
+	border-radius: 0px;
 }
