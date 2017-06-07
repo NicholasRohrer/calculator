@@ -8,6 +8,10 @@ body {
 	margin-bottom: 100px;
 }
 
+#result {
+	color: white;
+}
+
 #calculator {
 	background-color: black;
 	margin-top: 10px;
