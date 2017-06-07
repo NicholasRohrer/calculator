@@ -1,7 +1,6 @@
 body {
 	background-color: black;
 	font-size: 16px;
-	padding: 0;
 }
 
 #display {
@@ -10,7 +9,7 @@ body {
 }
 
 #buttons {
-	padding: 0px;
+	
 }
 
 #result {
@@ -19,9 +18,12 @@ body {
 
 #calculator {
 	background-color: black;
-	position: fixed;
+	position: absolute;
     bottom: 0;
+    right: 0;
+    left: 0;
     width: 100%;
+    padding: 0px;
 }
 
 .group1 {
@@ -38,4 +40,15 @@ body {
 	border-width: 1px;
 	color: white;
 	border-radius: 0px;
+}
+
+/* Active for anything larger than 767 px, laptop sized */
+@media screen and (min-width: 768px){
+	#calculator {
+		position: absolute;
+	    margin: auto;
+	    width: 400px;
+	    top: 50%
+	    left: 50%;
+	}
 }
