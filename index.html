@@ -14,97 +14,99 @@
 <body>
 
 <!-- Outline of calculator -->
-<div class="container" id="calculator">
-	<div class="container-fluid" id="display">
+<div class="container-fluid" id="calculator">
+	<div class="container" id="display">
 		<span id="result">0</span>
 	</div>
-	<div class="container-fluid">
-		<div class="row container-fluid">
-			<div class="col-xs-3 group1 btn">
-				 <h1 class="text-center" id="allClear">AC</h1>
+	
+	<div id="buttons">
+		<div class="container-fluid">
+			<div class="row container-fluid">
+				<div class="col-xs-3 group1 btn">
+					 <h1 class="text-center" id="allClear">AC</h1>
+				</div>
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="negate">+/-</h1>
+				</div>
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="%">%</h1>
+				</div>
+				<div class="col-xs-3 group2 btn">
+					<h1 class="text-center" id="/">/</h1>
+				</div>
+				
 			</div>
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center">+/-</h1>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row container-fluid">
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="7">7</h1>
+				</div>
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="8">8</h1>
+				</div>
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="9">9</h1>
+				</div>
+				<div class="col-xs-3 group2 btn">
+					<h1 class="text-center" id="*">x</h1>
+				</div>
+				
 			</div>
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center">%</h1>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row container-fluid">
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="4">4</h1>
+				</div>
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="5">5</h1>
+				</div>
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="6">6</h1>
+				</div>
+				<div class="col-xs-3 group2 btn">
+					<h1 class="text-center" id="-">-</h1>
+				</div>
+				
 			</div>
-			<div class="col-xs-3 group2 btn">
-				<h1 class="text-center" id="/">/</h1>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row container-fluid">
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="1">1</h1>
+				</div>
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="2">2</h1>
+				</div>
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id="3">3</h1>
+				</div>
+				<div class="col-xs-3 group2 btn">
+					<h1 class="text-center" id="+">+</h1>
+				</div>
+				
 			</div>
-			
+		</div>
+
+		<div class="container-fluid">
+			<div class="row container-fluid">
+				<div class="col-xs-6 group1 btn">
+					<h1 class="text-center" id="0">0</h1>
+				</div>
+				<div class="col-xs-3 group1 btn">
+					<h1 class="text-center" id=".">.</h1>
+				</div>
+				<div class="col-xs-3 group2 btn">
+					<h1 class="text-center" id="total">=</h1>
+				</div>
+				
+			</div>
 		</div>
 	</div>
-
-	<div class="container-fluid">
-		<div class="row container-fluid">
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center" id="7">7</h1>
-			</div>
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center" id="8">8</h1>
-			</div>
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center" id="9">9</h1>
-			</div>
-			<div class="col-xs-3 group2 btn">
-				<h1 class="text-center" id="*">x</h1>
-			</div>
-			
-		</div>
-	</div>
-
-	<div class="container-fluid">
-		<div class="row container-fluid">
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center" id="4">4</h1>
-			</div>
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center" id="5">5</h1>
-			</div>
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center" id="6">6</h1>
-			</div>
-			<div class="col-xs-3 group2 btn">
-				<h1 class="text-center" id="-">-</h1>
-			</div>
-			
-		</div>
-	</div>
-
-	<div class="container-fluid">
-		<div class="row container-fluid">
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center" id="1">1</h1>
-			</div>
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center" id="2">2</h1>
-			</div>
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center" id="3">3</h1>
-			</div>
-			<div class="col-xs-3 group2 btn">
-				<h1 class="text-center" id="+">+</h1>
-			</div>
-			
-		</div>
-	</div>
-
-	<div class="container-fluid">
-		<div class="row container-fluid">
-			<div class="col-xs-6 group1 btn">
-				<h1 class="text-center" id="0">0</h1>
-			</div>
-			<div class="col-xs-3 group1 btn">
-				<h1 class="text-center" id=".">.</h1>
-			</div>
-			<div class="col-xs-3 group2 btn">
-				<h1 class="text-center" id="total">=</h1>
-			</div>
-			
-		</div>
-	</div>
-
 </div>
 
 

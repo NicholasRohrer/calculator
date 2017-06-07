@@ -1,11 +1,16 @@
 body {
-	background-color: #white;
+	background-color: black;
 	font-size: 16px;
 	padding: 0;
 }
 
 #display {
-	margin-bottom: 100px;
+	text-align: right;
+	font-size: 3em;
+}
+
+#buttons {
+	padding: 0px;
 }
 
 #result {
@@ -14,9 +19,9 @@ body {
 
 #calculator {
 	background-color: black;
-	margin-top: 10px;
-	padding-right: 0px;
-	padding-left: 0px;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .group1 {

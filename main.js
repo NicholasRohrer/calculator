@@ -61,7 +61,17 @@ $("h1").on("click", function() {
 		update();
 	}
 
-	// add pecentage and negative ifs here
+	else if (this.id === "%") {
+		inputs.push("/100");
+		totalString = inputs.join("");
+		$("#result").html(eval(totalString));
+	}
+	
+	else if (this.id === "negate") {
+		inputs.push("*-1");
+		totalString = inputs.join("");
+		$("#result").html(eval(totalString));
+	}
 
 	else if (this.id === "total") {
 		getTotal();
