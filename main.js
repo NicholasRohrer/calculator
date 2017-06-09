@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-// input from user
+// input string from user
 var inputs = [""];
 
 // current result of user input calculation
@@ -18,13 +18,19 @@ var nums = [0,1,2,3,4,5,6,7,8,9];
 function getValue(input) {
 
 	// validate input - can't end with operator or period
-	if (operators2.includes(inputs[inputs.length-1] === true && input === ".")) {
-		console.log("Duplicate '.' ");
+	if (operators2.includes(inputs[inputs.length-1]) === true && input === ".") {
+		alert("Error: Can't have two ' . ' in a row.");
+	}
+
+	// validate input - can't have period and then operator
+	else if (operators2.includes(inputs[inputs.length-1]) === true && operators1.includes(input) === true) {
+		alert("Error: Incorrect Syntax. Can't have ' . ' and then operator.");
 	}
 
 	// validate input - can't start with operator
-	else if (inputs.length === 1 && operators1.includes(inputs) === false) {
-		inputs.push(input);
+	else if (inputs.length === 1 && operators1.includes(input) === true) {
+		alert("Error: Can't start with operator");
+		return;
 	}
 
 	// validate input - can't have more than one operator together

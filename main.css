@@ -6,6 +6,9 @@ body {
 #display {
 	text-align: right;
 	font-size: 3em;
+	width: 100%;
+	word-wrap: break-word;
+	overflow-y: auto;
 }
 
 #result {
@@ -22,8 +25,16 @@ body {
     padding: 0px;
 }
 
+.group0 {
+	background-color: #cccccc;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 0px;
+}
+
 .group1 {
-	background-color: gray;
+	background-color: #b3b3b3;
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
